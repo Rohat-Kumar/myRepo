@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rohat Kumar - Resume</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f5f7fb;
+      padding: 40px;
+      color: #333;
+    }
+
+    .resume {
+      max-width: 900px;
+      margin: auto;
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #4f46e5, #7c3aed);
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    .section {
+      padding: 25px 30px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .section:last-child {
+      border-bottom: none;
+    }
+
+    .section h2 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      color: #4f46e5;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .summary {
+      line-height: 1.6;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+    }
+
+    .skill-box {
+      background: #f1f5ff;
+      padding: 10px;
+      border-radius: 10px;
+      font-size: 14px;
+    }
+
+    .job {
+      margin-bottom: 20px;
+    }
+
+    .job h3 {
+      font-size: 16px;
+      color: #111;
+    }
+
+    .job span {
+      font-size: 13px;
+      color: #777;
+    }
+
+    .job ul {
+      margin-top: 10px;
+      padding-left: 18px;
+    }
+
+    .job ul li {
+      margin-bottom: 6px;
+      font-size: 14px;
+    }
+
+    .edu, .cert {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+
+      .header h1 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="resume">
+
+    <div class="header">
+      <h1>ROHAT KUMAR</h1>
+      <p>Owen, Germany • +49 15566112096 • khatrirohit036@gmail.com</p>
+    </div>
+
+    <div class="section">
+      <h2>Professional Summary</h2>
+      <p class="summary">
+        DevOps Engineer with 2 years of experience in Linux server administration, container orchestration, and cloud infrastructure. Skilled in managing production environments, troubleshooting system issues, and providing technical support. Strong foundation in automation and monitoring.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Technical Skills</h2>
+      <div class="skills">
+        <div class="skill-box"><strong>OS:</strong> Linux, Windows Server</div>
+        <div class="skill-box"><strong>Containers:</strong> Docker, Kubernetes, Helm</div>
+        <div class="skill-box"><strong>CI/CD:</strong> GitLab CI, Jenkins, Git</div>
+        <div class="skill-box"><strong>Cloud:</strong> AWS, Terraform</div>
+        <div class="skill-box"><strong>Database:</strong> MySQL</div>
+        <div class="skill-box"><strong>Monitoring:</strong> Prometheus, Grafana</div>
+        <div class="skill-box"><strong>Scripting:</strong> Bash, Python</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Work Experience</h2>
+
+      <div class="job">
+        <h3>Junior DevOps Engineer</h3>
+        <span>Contour Software | Jan 2020 – Dec 2022</span>
+        <ul>
+          <li>Managed Linux servers maintaining 99%+ uptime</li>
+          <li>Administered LAMP stack and MySQL databases</li>
+          <li>Containerized applications using Docker & Kubernetes</li>
+          <li>Built CI/CD pipelines using Jenkins</li>
+          <li>Implemented monitoring with Prometheus & Grafana</li>
+          <li>Provided technical support to clients</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <h3>DevOps Engineer (Freelance)</h3>
+        <span>Jan 2025 – Present</span>
+        <ul>
+          <li>Built AWS infrastructure using Terraform</li>
+          <li>Created GitLab CI/CD pipelines</li>
+          <li>Managed Kubernetes deployments with Helm</li>
+          <li>Developed automation scripts in Python & Bash</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <div class="edu">MSc ICT – University of Erlangen-Nuremberg (2022 – Present)</div>
+      <div class="edu">B.E. Computer System Engineering – Mehran University (2014 – 2017)</div>
+    </div>
+
+    <div class="section">
+      <h2>Certifications</h2>
+      <div class="cert">• Certified Kubernetes Administrator (CKA)</div>
+      <div class="cert">• HashiCorp Terraform Associate</div>
+      <div class="cert">• Docker Training Course</div>
+      <div class="cert">• Linux System Administration</div>
+    </div>
+
+  </div>
+</body>
+</html>
